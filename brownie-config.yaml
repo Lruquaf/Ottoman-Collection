@@ -1,0 +1,23 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.7.3
+  - smartcontractkit/chainlink-brownie-contracts@0.4.1
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.7.3'
+      - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.4.1'
+dotenv: .env
+networks:
+  default: development
+  development:
+    verify: False
+  goerli:
+    verify: True
+    ottoman_token: '0xdcFD26192068231A6498D2e1F83E55cc226a6516'
+wallets:
+  from_key: ${PRIVATE_KEY}
+  from_key_test_1: ${PRIVATE_KEY_TEST_1}
+  from_key_test_2: ${PRIVATE_KEY_TEST_2}
+  from_key_test_3: ${PRIVATE_KEY_TEST_3}
+  from_key_test_4: ${PRIVATE_KEY_TEST_4}
+  from_key_test_5: ${PRIVATE_KEY_TEST_5}
