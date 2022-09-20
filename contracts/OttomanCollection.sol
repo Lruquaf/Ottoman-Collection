@@ -44,7 +44,7 @@ contract OttomanCollection is ERC721URIStorage, ERC721Holder, Ownable {
         _safeMint(address(this), newTokenId);
         _setTokenURI(newTokenId, tokenURI);
         tokenCounter = tokenCounter + 1;
-        if (tokenCounter == 6) {
+        if (tokenCounter == sultans.length) {
             purchasing = true;
             creating = false;
         }
