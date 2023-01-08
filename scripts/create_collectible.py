@@ -14,7 +14,7 @@ token_uris = {
     "osman_i": "ipfs://QmWVE3ccNqthcioDxrWJSnCYxiLNmqkTE6HnLDNHPb7T4a?filename=1-osman_i.json",
     "orhan": "ipfs://QmaGUTZ7oM732y2c9Zy5mEcNnbwuTSKiKdyr52LCUqwfod?filename=2-orhan.json",
     "murad_i": "ipfs://QmcCrSD9q21bv7iRxJcE498Lmdc4aR7DVr9ac6qQKcQBHQ?filename=3-murad_i.json",
-    "bayeid_i": "ipfs://QmbFfJ9URz8pakNSafB7237mQmSccpfw8A7GwmHbcyZd9k?filename=4-bayezid_i.json",
+    "bayezid_i": "ipfs://QmbFfJ9URz8pakNSafB7237mQmSccpfw8A7GwmHbcyZd9k?filename=4-bayezid_i.json",
     "mehmed_i": "ipfs://QmYdG2eBp2TPTKtgpgDBioHf194y7xKDKLSkEVwC3GaSdp?filename=5-mehmed_i.json",
     "murad_ii": "ipfs://Qmanb8kwDbWKTi8WXFTZEURUdRMBrY6sGstWQjwF2Dqcnf?filename=6-murad_ii.json",
 }
